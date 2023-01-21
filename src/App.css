@@ -24,6 +24,7 @@
 
   display: grid;
   grid-template-columns: 15% 1fr;
+  gap: 1rem;
 }
 
 .comillas {
