@@ -10,9 +10,20 @@
 .App {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  gap: 2rem;
+}
+
+.App>p {
+  color: white;
+  font-weight: bold;
+}
+
+.App>p a {
+  color: yellow;
+  text-decoration: none;
 }
 
 .card {

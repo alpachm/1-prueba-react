@@ -23,6 +23,7 @@ function App() {
   return (
     <div className="App" style={{ backgroundColor: color }}>
       <Card text={quote} fun={change} colorStyle={color} />
+      <p>Este es mi repositorio <a href="https://github.com/alpachm/1-prueba-react.git" target='_blank'>Click</a></p>
     </div>
   )
 }
